@@ -1,0 +1,1 @@
+body{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100vh;font-family:Arial,sans-serif}button{padding:10px 20px;font-size:20px;cursor:pointer;transition:transform .1s;margin-top:10px}button:active{transform:scale(.95)}#bonusItem{margin-top:20px;padding:10px;background-color:#ff0;cursor:pointer}

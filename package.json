@@ -1,0 +1,11 @@
+{
+      "name": "auto-restart-click-game",
+      "version": "1.0.0",
+      "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+      },
+      "devDependencies": {
+        "vite": "^4.2.0"
+      }
+    }

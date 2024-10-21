@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+    <html lang="ja">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>自動再スタート可能なクリックゲーム</title>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <h1>クリックしてスコアを増やそう！</h1>
+      <button id="clickButton">クリック！</button>
+      <p>スコア: <span id="score">0</span></p>
+      <p>ハイスコア: <span id="highScore">0</span></p>
+      <p>残り時間: <span id="time">30</span>秒</p>
+      <div id="bonusItem" style="display: none;">ボーナス！クリックして！</div>
+      <audio id="clickSound" src="click.mp3"></audio>
+      <script type="module" src="main.js"></script>
+    </body>
+    </html>
